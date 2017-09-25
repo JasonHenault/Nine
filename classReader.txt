@@ -1,0 +1,32 @@
+std::cout << "Opening " << path << std::endl;
+
+    std::ifstream file(path.c_str());
+
+    if (!file.is_open()) {
+        std::cout << "!!! Impossible to open " << path << std::endl;
+        return error;
+    }
+
+    bool error = false, invalid = false;
+    std::string token;
+
+    do {
+        if (token == "//") {
+            getline(file, token);
+        } else if (token == "") {
+            file >> token;
+    } else {
+        getline(file, token);
+            invalid = true;
+        }
+    } while (!error && !file.eof());
+
+    if (invalid)
+        std::cout << "The mat file " << path << " is invalid : please verify the file" << std::endl;
+
+    if (error) {
+        std::cout << "!!! Material loading problem" << std::endl;
+        return error;
+    } else {
+        return success;
+    }

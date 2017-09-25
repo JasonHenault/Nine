@@ -1,0 +1,51 @@
+I. Tree of Nine engine
+
+    Nine
+        Tools
+            Patherns
+                Singleton (class) // S. prefixe before class mean sigleton class
+            Ressources
+                Rendering
+                    Image (class)
+                    Shader (class)
+                    Material (class)
+                    Models
+                        Awo (class)
+                        Md5 (class)
+                Audio
+                    Music (class)
+                    Sound (class)
+        System
+            Renderer (S. class)
+            Physics (S. class)
+            EventMng (S. class)
+            Report (S. class)
+        Game
+            Game (S. class)
+            Scene
+                Scene (class)
+                Camera (class)
+                Map (class)
+                Event (class)
+                Light
+                    Ambiant (class)
+                    Directional (class)
+                    Point (class)
+                    Spot (class)
+                Objects
+                    Object (class)
+                    Cnp (class)
+                    User (class)
+
+II. Fast Access
+
+NMATHS     -> Nine::Tools::Maths
+NPATHERNS  -> Nine::Tools::Patherns
+NRENDERING -> Nine::Tools::Ressources::Rendering
+NMODELS    -> Nine::Tools::Ressources::Rendering::Models
+
+NSYSTEM    -> Nine::System
+
+NGAME      -> Nine::Game
+NSCENE     -> Nine::Game::Scene
+NOBJECTS   -> Nine::Game::Scene::Objects

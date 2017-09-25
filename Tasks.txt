@@ -1,0 +1,15 @@
+Ability current sources to be compiled (fit/unfit): unfit
+
+<========================================================== General Tasks ==========================================================>
+1. Finishing to implement MD5 loader
+2. Implement character controller
+3. Implement material in Physics class
+4. Re-implement scene reader with .pak files and others (compilation, binaries, ...)
+<===================================================================================================================================>
+
+
+Dev part (in french):
+
+Map.cpp :
+Un materiel par face et aucune répetition de fichier à faire, laby.awo est ok pour map.
+Fonctions toutes recopiées sur Awo loader.
