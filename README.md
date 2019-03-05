@@ -8,7 +8,7 @@ Used libraries :
 - Newton Dynamics : A physics engine
 - LUA : Nearly all the game works thanks to LUA scripts, allowing to modify a level, a tool, an object or a material, directly in a script file
 
-It's from this basics libraries I start ths engine. Currently, it allow to :
+It's from this basic libraries I've started the engine. Currently, it allows to :
 
 - display a level with lights, events, spatialized sounds and shaders
 - move a caracter at first person view with the ability to interact with the world (by raycasting)
